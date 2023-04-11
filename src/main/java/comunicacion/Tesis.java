@@ -58,7 +58,7 @@ public class Tesis extends Escrito {
 		return interpretacion;
 	}
 	public String toString() {
-		return super.getOrigen()+"\n"+super.getTitulo()+"\n"+super.getAutor() +"\n"+super.getPaginas()+"\n"+getIdea()+"\n"+getArgumentos().length+"\n"+getConclusion()+"\n"+getReferencias();
+		return this.getOrigen() + "\n" + this.getTitulo() + "\n" +  this.getAutor() + "\n"+ this.getPaginas() + "\n" + this.getIdea() + "\n" + this.argumentos.length + "\n"+ this.getConclusion() + "\n" + this.getReferencias();
 	}
 	
 	
